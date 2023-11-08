@@ -8,12 +8,12 @@ import java.util.List;
 public class TaskWithItems {
 
     @Embedded
-    public Task task;  // La tarea principal
+    public Task task;
 
     @Relation(
             parentColumn = "id",
             entityColumn = "task_id"
     )
-    public List<TaskItem> taskItems;  // Lista de elementos relacionados
+    public List<TaskItem> taskItems;
 
 }

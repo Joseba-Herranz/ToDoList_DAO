@@ -12,7 +12,7 @@ public class TaskItem {
     private int id;
 
     @ColumnInfo(name = "task_id")
-    private int taskId;  // Esta columna almacena el ID de la tarea a la que está relacionado este elemento
+    private int taskId;
 
     @ColumnInfo(name = "item_description")
     private String itemDescription;
